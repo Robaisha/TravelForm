@@ -1,0 +1,56 @@
+*{
+ margin:0px;
+ padding:0px;
+ box-sizing:border-box;
+ font-family: 'Edu SA Beginner', cursive;
+ font-size: 40px;
+}
+
+.container{
+    max-width:80%;
+    padding:34px;
+    margin:auto;
+}
+.container h3{
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+input,textarea{
+    border: 2px solid;
+    width: 80%;
+    margin: 11px;
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 10px;
+    outline: none;
+}
+form{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    color: white;
+    padding: 20px 25px;
+    background-color: palevioletred;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+.bg{
+width:100%;
+position: absolute;
+z-index: -1;
+opacity: 1;
+}
+.submitMSG{
+    color: #00c700;
+    font-size: 20px;
+}
